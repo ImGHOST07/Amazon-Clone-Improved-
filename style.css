@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 2px solid blue; */
+}
+
+:root {
+    --navcolor: #0f1111;
+    --sec-color: #222f3d;
+    --txt-color: white;
+    --txt-sec-color: #cccccc;
+    --search-color: #febd68;
+    --zero: #ff9b18;
+}
+
+/* ========== Navigation Panne ========== */
+
+nav {
+    width: 100vW;
+    height: 60px;
+    background-color: var(--navcolor);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navLogo {
+   width: 110px;
+   height: 50px;
+   padding-top: 5px;
+   margin-left: 8px;
+}
+
+.navLogo img {
+    height: 42px;
+}
+
+.Loc {
+    color: var(--txt-color);
+}
+
+.deli {
+    color: var(--txt-sec-color);
+    font-size: 0.85rem;
+    display: inline-block;
+}
+
+.ind {
+    font-size: 1rem;
+    font-weight: 550;
+    /* position: relative;
+    left: 20px; */
+}
+
+.fa-location-dot {
+    float: left;
+    margin-top: 19px;
+}
+
+.navSearch {
+    height: 60px;
+    width: 900px;
+    display: flex;
+    color: var(--txt-color);
+}
+
+.navsrch {
+    height: 40px;
+    border: none;
+    align-self: center;
+}
+
+.allSelect {
+    width: 50px;
+    background-color: var(--txt-sec-color);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: rgb(66, 66, 66);
+    font-size: 0.77rem;
+    text-align: center;
+}
+
+.srchPanel {
+    width: 90%;
+    font-size: 0.95rem;
+    padding-left: 5px;
+}
+
+.srchBtn {
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--search-color);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.fa-magnifying-glass {
+    color: #2f2f2f;
+    font-size: 1.28rem;
+}
+
+.navLang {
+    width: 45px;
+    height: 45px;
+}
+
+.navLang select {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    color: var(--txt-color);
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-align: start;
+}
+
+.navSign-in {
+    color: var(--txt-color);
+}
+
+.hello-signIn {
+    color: var(--txt-sec-color);
+    font-size: 0.8rem;
+}
+
+.accountNlists {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.returnsBox {
+    color: var(--txt-color);
+}
+
+.retrns {
+    color: var(--txt-sec-color);
+    font-size: 0.8rem;
+}
+
+.ords {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.cartBox {
+    color: var(--txt-color);
+    height: 50px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.fa-cart-shopping {
+    /* display: inline-block; */
+    font-size: 2.2rem;
+    transform: translateY(8px);
+}
+
+.crt-txt {
+    /* display: inline-block; */
+    font-weight: bold;
+    align-self: flex-end;
+    padding-bottom: 10px;
+}
+
+.fa-cart-shopping p {
+    color: var(--zero);
+    font-size: 1rem;
+    transform: translateY(-33px);   
+}
