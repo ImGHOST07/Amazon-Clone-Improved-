@@ -39,6 +39,7 @@ nav {
 
 .Loc {
     color: var(--txt-color);
+    width: 85px;
 }
 
 .deli {
@@ -61,7 +62,7 @@ nav {
 
 .navSearch {
     height: 60px;
-    width: 900px;
+    width: 60%;
     display: flex;
     color: var(--txt-color);
 }
@@ -83,7 +84,7 @@ nav {
 }
 
 .srchPanel {
-    width: 90%;
+    width: 100%;
     font-size: 0.95rem;
     padding-left: 5px;
 }
@@ -121,6 +122,7 @@ nav {
 
 .navSign-in {
     color: var(--txt-color);
+    width: 122px;
 }
 
 .hello-signIn {
@@ -135,6 +137,7 @@ nav {
 
 .returnsBox {
     color: var(--txt-color);
+    width: 69px;
 }
 
 .retrns {
@@ -172,4 +175,61 @@ nav {
     color: var(--zero);
     font-size: 1rem;
     transform: translateY(-33px);   
+}
+
+@media (max-width: 940px) {
+    nav {
+        height: 50px;
+    }
+
+    .navLogo{
+        transform: scale(0.8);
+    }
+
+    .Loc {
+        padding-left: 3px;
+    }
+    
+    .loc-child {
+        font-size: 0.7rem;
+    }
+
+    .fa-location-dot {
+        /* position: relative;
+        right: 10px;
+        top: 10px; */
+        font-size: 0.7rem;
+    }
+
+    /* .Loc p {
+        position: relative;
+        bottom: 20px;
+        left: 3px;
+    } */
+    
+    .navSearch {
+        transform: scale(0.95);
+    }
+
+    .navLang {
+        transform: scale(0.9);
+    }
+
+    .navSign-in p {
+        font-size: 0.7rem;
+    }
+
+    .returnsBox p {
+        font-size: 0.7rem;
+    }
+
+    .cartBox p {
+        font-size: 0.9rem;
+        margin-right: 5px;
+    }
+
+    .fa-cart-shopping {
+        transform: scale(0.88);
+        padding-top: 15px;
+    }
 }
