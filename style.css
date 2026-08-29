@@ -15,7 +15,7 @@
     --zero: #ff9b18;
 }
 
-/* ========== Navigation Panne ========== */
+/* ========== Navigation Panel ========== */
 
 nav {
     width: 100vW;
@@ -123,6 +123,7 @@ nav {
 .navSign-in {
     color: var(--txt-color);
     width: 122px;
+    padding: 5px 2px 5px 2px;
 }
 
 .hello-signIn {
@@ -138,6 +139,7 @@ nav {
 .returnsBox {
     color: var(--txt-color);
     width: 69px;
+    padding: 5px 2px 5px 2px;
 }
 
 .retrns {
@@ -179,7 +181,7 @@ nav {
 
 @media (max-width: 940px) {
     nav {
-        height: 50px;
+        height: 55px;
     }
 
     .navLogo{
@@ -232,4 +234,108 @@ nav {
         transform: scale(0.88);
         padding-top: 15px;
     }
+}
+
+.hoverrr {
+    border: 1px solid transparent;
+}
+
+.hoverrr:hover {
+    border: 1px solid var(--txt-color);
+}
+
+@media (max-width: 716px) {
+    nav {
+        height: 47px;
+    }
+
+    .navLogo{
+        transform: scale(0.7);
+    }
+
+    .Loc {
+        padding-bottom: 3px;
+        transform: translateX(-6px);
+        width: 90px;
+    }
+    
+    .loc-child {
+        font-size: 0.6rem;
+    }
+
+    .fa-location-dot {
+        /* position: relative;
+        right: 10px;
+        top: 10px; */
+        font-size: 0.65rem;
+    }
+
+    /* .Loc p {
+        position: relative;
+        bottom: 20px;
+        left: 3px;
+    } */
+    
+    .navSearch {
+        transform: scale(0.87);
+    }
+
+    .navLang {
+        transform: scale(0.7);
+        transform: translateX(-12px);
+    }
+
+    .navSign-in p {
+        font-size: 0.58rem;
+    }
+
+    .returnsBox p {
+        font-size: 0.58rem;
+    }
+
+    .cartBox p {
+        font-size: 0.78rem;
+        margin-right: 5px;
+    }
+
+    .fa-cart-shopping {
+        transform: scale(0.76);
+        padding-top: 15px;
+    }
+}
+
+/* ==========Sub-Nav Panel========== */
+
+.subNavPanel {
+    width: 100vw;
+    height: 40px;
+    background-color: var(--sec-color);
+    color: var(--txt-color);
+    display: flex;
+    align-items: center;
+}
+
+.mainLi {
+    display: flex;
+    /* align-items: center; */
+    margin-left: 15px;
+    column-gap: 20px;
+    font-size: 0.93rem;
+}
+
+.all-subNav {
+    font-weight: 600;
+}
+
+.LiUl {
+    border: 1 solid transparent;
+    padding: 10px 2px 10px 2px;
+    align-self: center;
+    /* display: flex;
+    align-items: center; */
+}
+
+.LiUl:hover {
+    border: 1px solid var(--txt-color);
+    transform: translateY(1px);
 }
