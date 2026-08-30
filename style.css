@@ -339,3 +339,31 @@ nav {
     border: 1px solid var(--txt-color);
     transform: translateY(1px);
 }
+
+@media (max-width: 940px) {
+    .subNavPanel {
+        height: 35px;
+    }
+    
+    .LiUl {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 716px) {
+    .subNavPanel {
+        height: 32px;
+    }
+    
+    .LiUl {
+        font-size: 0.7rem;
+    }
+}
+
+/* ========== Main Content ========== */
+
+.bgImg {
+    max-width: 97vw;
+    height: 600px;
+    object-fit: cover;
+}
