@@ -16,6 +16,7 @@
     --link-color: #2162a1;
     --hover-link: #0c3353;
     --body-bg-color: #cccccc9d;
+    --bckTop-color: #37475A;
 }
 
 body {
@@ -371,7 +372,7 @@ nav {
 
 main {
     width: 98vw;
-    height: 100vh;
+    height: auto;
     background-image: url(assets/Hero-img-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -379,6 +380,7 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 326px;
 }
 
 .amazon-headLink p a {
@@ -618,4 +620,115 @@ main {
 
 .imageOf-84 {
     background-image: url(assets/2023Q2_GW_EE_Hallway_D_Quad_186x116._SY116_CB594237035_.jpg);
+}
+
+/* ========== Back To Top Section ========== */
+
+.bckTo-top {
+    width: 100vw;
+    height: 19px;
+    padding: 23.5px 0 23.5px 0;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bckTop-color);
+    /* margin-top: 430px; */
+}
+
+.bcktoplink {
+    text-decoration: none;
+    color: var(--txt-color);
+    font-size: 0.8rem;
+}
+
+.bckTo-top:hover {
+    background-color: #37475ad3;
+}
+
+.infoContent {
+    width: 100vw;
+    height: 350px;
+    background-color: var(--sec-color);
+    display: flex;
+    align-items: center;
+}
+
+.mainfoot-Content {
+    width: 1000px;
+    height: 268px;
+    margin: 0 260px 0 260px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.mainList {
+    color: var(--txt-color);
+    font-weight: 700;
+    font-size: 0.98rem;
+    line-height: 35px;
+}
+
+.listItems {
+    color: var(--txt-sec-color);
+    list-style: none;
+    font-size: 0.88rem;
+    font-weight: lighter;
+    line-height: 27px;
+    
+}
+
+.listItems:hover {
+    text-decoration: underline;
+}
+
+hr {
+    background-color: var(--txt-sec-color);
+}
+
+.foot-lastBar {
+    width: 100vw;
+    height: 110px;
+    background-color: var(--sec-color);
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.footLogo {
+    width: 75px;
+    height: 30px;
+    margin-right: 90px;
+}
+
+.footBtn {
+    background-color: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.884);
+    font-size: 0.75rem;
+}
+
+.foot-lang i, p {
+    display: inline-block;
+}
+
+.footDiv {
+    padding: 8px 20px 8px 10px;
+    border: 0.5px solid var(--txt-sec-color);
+    margin-bottom: 8px;
+}
+
+.foot-lang {
+    color: rgba(255, 255, 255, 0.884);
+    font-size: 0.75rem;
+    padding: 10.5px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #3b4150;
 }
