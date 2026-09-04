@@ -171,7 +171,7 @@ nav {
 .fa-cart-shopping {
     /* display: inline-block; */
     font-size: 2rem;
-    transform: translateY(8px);
+    transform: translateY(20px);
 }
 
 .crt-txt {
@@ -184,7 +184,7 @@ nav {
 .fa-cart-shopping p {
     color: var(--zero);
     font-size: 0.9rem;
-    transform: translateY(-31px);   
+    transform: translateY(-45px);   
 }
 
 @media (max-width: 940px) {
@@ -660,7 +660,7 @@ main {
     margin: 0 260px 0 260px;
     display: flex;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .mainList {
@@ -676,15 +676,10 @@ main {
     font-size: 0.88rem;
     font-weight: lighter;
     line-height: 27px;
-    
 }
 
 .listItems:hover {
     text-decoration: underline;
-}
-
-hr {
-    background-color: var(--txt-sec-color);
 }
 
 .foot-lastBar {
@@ -731,4 +726,50 @@ hr {
     border: none;
     height: 1px;
     background-color: #3b4150;
+}
+
+@media (max-width: 1423px) {
+    .bckTo-top {
+        margin-top: 686px;
+    }
+}
+
+@media (max-width: 1214px) {
+    .mainfoot-Content {
+        margin: 0 80px 0 80px;
+    }
+
+    .mainList {
+        font-size: 0.9rem;
+    }
+
+    .listItems {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 1072px) {
+    .bckTo-top {
+        margin-top: 1091px;
+    }
+}
+
+@media (max-width: 791px) {
+    .mainfoot-Content {
+        margin: 0 50px 0 50px;
+    }
+
+    .mainList {
+        font-size: 0.8rem;
+    }
+
+    .listItems {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 713px) {
+    .bckTo-top {
+        margin-top: 2680px;
+    }
 }
